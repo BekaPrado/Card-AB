@@ -17,6 +17,9 @@ ul.ol,li {
     list-style: none;
 }
 
+body{
+    background-color: pink;
+}
 .menu {
     background-color: black;
     color: white;
@@ -25,16 +28,54 @@ ul.ol,li {
     gap: 16px;
     padding: 16px;
 }
+
 .menu a{
     padding: 8px;
     transition: 0.5s;
-
 }
+
 .menu a:hover{
     background-color: var(--cor-hover);
 }
 
 .menu img{
     height: 16px;
+}
 
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 16px;
+    width: 250px;
+    margin-top: 200px;
+    height: 470px;
+}
+
+.card img {
+    width: 80%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+.card h3 {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #333;
+}
+
+.card p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
 }
