@@ -38,7 +38,7 @@ const cards = [
     { imagem: 'img2.jpg', titulo: 'Como perder um homem em 10 dias', descricao: 'Andie, uma escritora de revista, conhece seu par Benjamin, um executivo de marketing, depois que ela decide escrever uma coluna especial enquanto ele faz uma aposta. Sem saber de suas reais intenções, eles se apaixonam.' },
     { imagem: 'img3.jpg', titulo: '10 coisas que eu odeio em você', descricao: 'Assim que Cameron, um novato na Padua High School, encontra Bianca, ele se apaixona por ela. No entanto, para namorar Bianca, ele deve primeiro fazer com que sua irmã mais velha, Kate, uma feminista malvada, namore alguém.'},
     { imagem: 'img4.jpg', titulo: 'Como eu era antes de você', descricao: 'Louisa Clark aceita o trabalho de ser cuidadora de Will Traynor, um homem rígido que tem paralisia. No entanto, sua vida se transforma à medida que os dois, gradualmente, formam um vínculo e depois se apaixonam.'},
-    { imagem: 'img5.jpg', titulo: 'As patricinhas de Bervelly Hills', descricao: 'Cher é uma estudante rica do ensino médio que está aprendendo a lidar com a adolescência e seus problemas. Ela também ajuda um novo aluno a ganhar popularidade e, no processo, descobre seus próprios sentimentos por alguém.'}
+    { imagem: 'img5.jpg', titulo: 'As patricinhas de Bervelly Hills', descricao: 'Cher é uma estudante rica do ensino médio que está aprendendo a lidar com a adolescência e seus problemas. Ela também ajuda um novo aluno a ganhar popularidade e, no processo, descobre seus próprios sentimentos por alguém.' }
 ];
 
 cards.forEach(card => {
